@@ -34,7 +34,20 @@ Primeiro entre com seu super usuário e acesse o postgre
 
 <pre>
 <span style="font-weight: 400">sudo su
-su postgres</span>
+su postgres
+psql</span>
+</pre>
+
+Agora que está logado com o postgres vamos criar um primeiro usuário.
+
+<pre>
+<span style="font-weight: 400">CREATE USER nomedousuario SUPERUSER INHERIT CREATEDB CREATEROLE;</span>
+</pre>
+
+depois entre com o comando:
+
+<pre>
+<span style="font-weight: 400">ALTER USER nomedousuario PASSWORD 'senha';</span>
 </pre>
 
 
