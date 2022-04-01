@@ -67,6 +67,7 @@ Instale para os modos desktop e web:
 </pre>
 
 Caso não tenha sucesso entre na pagina oficial do postgres e pgadmin.
+<a href="https://www.pgadmin.org/download/pgadmin-4-apt/">aqui</a>
 https://www.pgadmin.org/download/pgadmin-4-apt/
 https://www.postgresql.org/download/linux/ubuntu/
 
