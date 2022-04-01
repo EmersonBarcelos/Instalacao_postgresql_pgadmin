@@ -22,8 +22,19 @@ sudo apt-get -y install postgresql</span>
 
 Os comandos abaixo podem ser utilizados para parar, iniciar, habilitar e verificar seu status.
 <pre>
-<span style="font-weight: 400">```Shell sudo systemctl stop postgresql.service
+<span style="font-weight: 400">Shell sudo systemctl stop postgresql.service
 sudo systemctl start postgresql.service
 sudo systemctl enable postgresql.service
-sudo systemctl status postgresql.service```</span>
+sudo systemctl status postgresql.service</span>
 </pre>
+
+
+Depois de instalado seu SGBD postgre, crie seu primeiro usuário
+Primeiro entre com seu super usuário e acesse o postgre
+
+<pre>
+<span style="font-weight: 400">sudo su
+su postgres</span>
+</pre>
+
+
