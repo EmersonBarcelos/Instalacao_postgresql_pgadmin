@@ -1,6 +1,6 @@
 <h1>Etapa 1: Adicionar Repositório PostgreSQL</h1>
 
-<h2>Crie a configuração do repositório de arquivos:</h2>
+<h3>Crie a configuração do repositório de arquivos:</h3>
 <pre>
  <span style="font-weight: 400">sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $ (lsb_release -cs) -pgdg main"> /etc/apt/sources.list.d/pgdg.list'</span>
 </pre>
