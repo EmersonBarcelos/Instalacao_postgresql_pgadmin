@@ -29,8 +29,7 @@ sudo systemctl status postgresql.service</span>
 </pre>
 
 
-Depois de instalado seu SGBD postgre, crie seu primeiro usuário
-Primeiro entre com seu super usuário e acesse o postgre
+Depois de instalado seu SGBD postgre, vamos acessa-lo:
 
 <pre>
 <span style="font-weight: 400">sudo su
