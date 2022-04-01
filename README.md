@@ -11,13 +11,10 @@
 </pre>
 
 <h1>Etapa 2: atualize e instale o PostgreSQL</h1>
-<pre>
-<span style="font-weight: 400">
-//Atualize as listas de pacotes:
-sudo apt-get update
 
-//Instale a versão mais recente do PostgreSQL.
-//Se você quiser uma versão específica, use 'postgresql-12' ou semelhante em vez de 'postgresql':
+<h3>Atualize as listas de pacotes:</h3>
+<pre>
+<span style="font-weight: 400">sudo apt-get update
 sudo apt-get -y install postgresql</span>
 </pre>
 
