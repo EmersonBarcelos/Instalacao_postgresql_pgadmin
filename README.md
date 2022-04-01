@@ -37,7 +37,7 @@ su postgres
 psql</span>
 </pre>
 
-Agora que está logado com o postgres vamos criar um primeiro usuário.
+Agora que está logado com o postgre vamos criar um primeiro usuário.
 
 <pre>
 <span style="font-weight: 400">CREATE USER nomedousuario SUPERUSER INHERIT CREATEDB CREATEROLE;</span>
@@ -66,7 +66,7 @@ Instale para os modos desktop e web:
 <span style="font-weight: 400">sudo apt install pgadmin4</span>
 </pre>
 
-Caso não tenha sucesso entre na pagina oficial do <a href="https://www.postgresql.org/download/linux/ubuntu/">postgre</a> e <a href="https://www.pgadmin.org/download/pgadmin-4-apt/">pgadmin</a>.
+Caso não tenha sucesso entre na pagina oficial do <a href="https://www.postgresql.org/download/linux/ubuntu/">PostgreSQL</a> e <a href="https://www.pgadmin.org/download/pgadmin-4-apt/">pgadmin</a>.
 
 
 
