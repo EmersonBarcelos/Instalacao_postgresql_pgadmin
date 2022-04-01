@@ -18,3 +18,11 @@ Atualize a lista de pacotes e instale:
 sudo apt-get -y install postgresql</span>
 </pre>
 
+<h1>Etapa 3: Acessando PostgreSQL</h1>
+
+Os comandos abaixo podem ser utilizados para parar, iniciar, habilitar e verificar seu status.
+<span style="font-weight: 400">sudo systemctl stop postgresql.service
+sudo systemctl start postgresql.service
+sudo systemctl enable postgresql.service
+sudo systemctl status postgresql.service</span>
+</pre>
