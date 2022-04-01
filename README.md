@@ -49,4 +49,24 @@ depois entre com o comando:
 <span style="font-weight: 400">ALTER USER nomedousuario PASSWORD 'senha';</span>
 </pre>
 
+<h1>Etapa 4: Instalação pgAdmin 4 (APT)</h1>
+
+Instale a chave pública para o repositório:
+<pre>
+<span style="font-weight: 400">sudo curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add</span>
+</pre>
+
+Crie o arquivo de configuração do repositório:
+<pre>
+<span style="font-weight: 400">sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main"> /etc/apt/sources.list.d/pgadmin4.list && apt update '</span>
+</pre>
+
+Instale para os modos desktop e web:
+<pre>
+<span style="font-weight: 400">sudo apt install pgadmin4</span>
+</pre>
+
+Caso não tenha sucesso entre na pagina oficial do postgres e pgadmin.
+https://www.pgadmin.org/download/pgadmin-4-apt/
+https://www.postgresql.org/download/linux/ubuntu/
 
